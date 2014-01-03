@@ -17,3 +17,7 @@ if you need call this function before save, you can call it manually doing:
 all the credit goes for [this post](http://stackoverflow.com/questions/356126/how-can-you-automatically-remove-trailing-whitespace-in-vim/1618401#1618401)
 
 I'm only put it in a way of vim plugin
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gagoar/stripwhitespaces/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
