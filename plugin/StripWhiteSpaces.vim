@@ -11,7 +11,7 @@ function! s:StripWhiteSpaces()
     let old_query = getreg('/')
     :%s/\s\+$//e
 
-    if g:strip_trailing_lines == 1
+    if exists('g:strip_trailing_lines') && g:strip_trailing_lines
         :%s#\($\n\s*\)\+\%$##e
     endif
 
