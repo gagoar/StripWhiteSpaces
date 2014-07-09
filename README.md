@@ -8,7 +8,7 @@ if you are using [janus](https://github.com/carlhuda/janus), put it under ~/.jan
 
     git clone git@github.com:gagoar/StripWhiteSpaces.git
 
-then all you need to do is restart your vim/mvim 
+then all you need to do is restart your vim/mvim
 
 if you need call this function before save, you can call it manually doing:
 
@@ -17,6 +17,13 @@ if you need call this function before save, you can call it manually doing:
 all the credit goes for [this post](http://stackoverflow.com/questions/356126/how-can-you-automatically-remove-trailing-whitespace-in-vim/1618401#1618401)
 
 I'm only put it in a way of vim plugin
+
+Trailling Spaces
+-
+
+You could remove the trailing spaces at the end of the file too; just place the following in your `.vimrc`:
+
+    let g:g:strip_trailing_lines = 1
 
 Disabling
 -
