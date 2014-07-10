@@ -3,6 +3,10 @@ Strip White Spaces
 
 This plugin strip all the white spaces in your file before save it automatically
 
+Why this is important?
+
+http://programmers.stackexchange.com/questions/121555/why-is-trailing-whitespace-a-big-deal
+
 Simple to use too: just put this files under plugin in to your vim configuration,
 if you are using [janus](https://github.com/carlhuda/janus), put it under ~/.janus like this:
 
@@ -18,12 +22,12 @@ all the credit goes for [this post](http://stackoverflow.com/questions/356126/ho
 
 I'm only put it in a way of vim plugin
 
-Trailling Spaces
+Trailling blank lines
 -
 
-You could remove the trailing spaces at the end of the file too; just place the following in your `.vimrc`:
+You could remove the trailing blank lines at the end of the file too; just place the following in your `.vimrc`:
 
-    let g:g:strip_trailing_lines = 1
+    let g:strip_trailing_lines = 1
 
 Disabling
 -
