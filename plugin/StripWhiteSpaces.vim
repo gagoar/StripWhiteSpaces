@@ -9,9 +9,11 @@ function! s:StripWhiteSpaces()
     endif
     let save_cursor = getpos(".")
     let old_query = getreg('/')
+    undojoin
     :%s/\s\+$//e
 
     if exists('g:strip_trailing_lines') && g:strip_trailing_lines
+        undojoin
         :%s#\($\n\s*\)\+\%$##e
     endif
 
